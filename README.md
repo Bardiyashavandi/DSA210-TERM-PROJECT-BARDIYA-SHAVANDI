@@ -1,15 +1,15 @@
 # Economic agents' impact on Real states prices-DSA210 Project proposal                                                                                                    
 
-## Project Question: How Do Inflation and Interest Rate Changes Influence Real Estate Prices and Home-Buying Trends in the USA?
+## Project Question: How Do Economic Agents Change Influence Real Estate Prices and Home-Buying Trends in the USA?
 
 ### Project Description
-This project aims to analyze and explore the economic agents' impacts (Inflation and interest rates) on real estate prices and how that contributes to people's behavior toward buying houses.
+This project aims to analyze and explore the economic agents' impacts (Inflation and interest rates,..) on real estate prices and how that contributes to people's behavior toward buying houses.
 I will explore the relationship between these economic factors and real estate prices if it exist or not. The project will leverage historical data on inflation rates (CPI), Federal Funds rates, and housing prices (from sources such as Zillow and FRED) to identify patterns and correlations.
 I will use Exploratory analysis on these data sets and modify them. Then, I will continue by creating visualizations in order to illustrate these data sets and their correlation. I will use some statistical and machine learning to delve further into these data sets.
 In the end, I will reach a conclusion regarding this relationship's mechanism between them if it exists. The goal is to provide actionable insights into how these economic variables impact home-buying decisions, especially in fluctuating economic conditions.
 
 #### Motivation: 
-1) Real Estate prices have an important and significant role in our lives and their relationship to economic factors would enhance our understanding of the reason behind these fluctuations in Housing prices.
+1) Real Estate prices have a significant role in our lives and their relationship to economic factors would enhance our understanding of the reason behind these fluctuations in Housing prices.
 2) This project would aid the governments to observe whether instrumentalizing the interest rates would have any impacts on inflation and Real Estate prices or not, if so, Then this modification is helpful or not.
 3) Understanding this relationship can inform policies and help people make better home-buying decisions
 
@@ -35,7 +35,8 @@ These datasets will be utilized to be analyzed further:
 2) Housing Market Prices will be sourced from Zillow, which provides reliable and comprehensive data on real estate trends in the United States. This file is gonna be exported in .csv extension in order to be analyzed further.
 3) Google Trends data will be collected for search interest in home-buying using Google’s trend platform. This data can be extracted manually from Google Trends for specific keywords. This file is gonna be exported in a .csv extension in order to be analyzed further.
 4) Mortgage Debt Service Payments (MDSP) and House Price Index (HPI) data will also be sourced from FRED, which provides detailed datasets on economic indicators. This file is gonna be exported in .csv extension in order to be analyzed further.
-5) Other data sets will be collected from Kaggle.com
+5) USA GDP Growth Dataset 1961-2021 will be collected from kaggle. This file is gonna be exported in a .csv extension in order to be analyzed further.
+6) USA stock market will be extracted from kaggle. This file is gonna be exported in a .csv extension in order to be analyzed further.
 
 Data Sources:
 1. Inflation Data (CPI)
@@ -56,8 +57,17 @@ Data Sources:
 
 5. Mortgage Debt Service Payments (MDSP) 
    https://fred.stlouisfed.org/series/MDSP  
-   Explanation The percentage of income spent on mortgage payments.
+   Explanation: The percentage of income spent on mortgage payments.
 
 6. House Price Index (HPI)  
   https://fred.stlouisfed.org/series/USSTHPI  
   Explanation: A national measure of home price changes in the U.S.
+
+7. USA GDP Growth Dataset 1961-2021
+   https://www.kaggle.com/datasets/malayvyas/usa-gdp-dataset-19612021
+   Explanation: GDP data from 1961 until 2021 in USA
+
+8. Stock Market
+   https://www.kaggle.com/datasets/ahmadrafiee/stock-market
+   Explanation: Stock Market dataset in USA in different periods
+   
