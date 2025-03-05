@@ -23,7 +23,7 @@ In the end, I will reach a conclusion regarding this relationship's mechanism be
 7) Data visualization and final report
 8) Future work and its limitations
 
-###### Data Collection
+###### Data Collection:
 For this project, I will use various and plenty of data sets regarding this relationship.
 Economic factors like inflation and interest rates data sets will be collected from the FRED database which includes this data for a time-specified duration.
 I will use Google Trends for house buying in the USA to comprehend People's behavior toward house purchasing at different times in history. This data set will be collected from the Google Trends Platform.
@@ -37,7 +37,7 @@ These datasets will be utilized to be analyzed further:
 4) Mortgage Debt Service Payments (MDSP) and House Price Index (HPI) data will also be sourced from FRED, which provides detailed datasets on economic indicators. This file is gonna be exported in .csv extension in order to be analyzed further.
 5) Other data sets will be collected from Kaggle.com
 
-#Data Sources
+####### Data Sources:
 1. Inflation Data (CPI)
    https://fred.stlouisfed.org/series/CPIAUCSL
    Explanation: Consumer Price Index (CPI) to track inflation in the U.S.
