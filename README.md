@@ -37,7 +37,7 @@ These datasets will be utilized to be analyzed further:
 4) Mortgage Debt Service Payments (MDSP) and House Price Index (HPI) data will also be sourced from FRED, which provides detailed datasets on economic indicators. This file is gonna be exported in .csv extension in order to be analyzed further.
 5) Other data sets will be collected from Kaggle.com
 
-####### Data Sources:
+Data Sources:
 1. Inflation Data (CPI)
    https://fred.stlouisfed.org/series/CPIAUCSL
    Explanation: Consumer Price Index (CPI) to track inflation in the U.S.
