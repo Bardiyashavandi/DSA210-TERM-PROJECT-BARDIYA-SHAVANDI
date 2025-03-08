@@ -14,17 +14,17 @@ In the end, I will reach a conclusion regarding this relationship's mechanism be
 3) Understanding this relationship can inform policies and help people make better home-buying decisions
 
 ##### Methodology:
-1) Various data will be collected and prepared to be processed
-2) The data sets will be processed (Clean and getting rid of unuseful data)
-3) Utilizing different exploratory techniques
-4) Plenty of visuals will be created regarding all data sets and their relevance
-5) Statistical methods will be used to delve into the core of this project
-6) Machine Learning techniques will further predict the prices in the future (if it is possible)
-7) Data visualization and final report
+1) Data Collection: Various data will be collected and prepared to be processed
+2) Data Preprocessing: The data sets will be processed (Clean and getting rid of unuseful data)
+3) Exploratory Data Analysis (EDA): Utilizing different exploratory techniques
+4) Visualization: Plenty of visuals will be created regarding all data sets and their relevance
+5) Statistical Analysis: Statistical methods will be used to delve into the core of this project
+6) Predictive Modeling: Machine Learning techniques will further predict the prices in the future (if it is possible)
+7) Conclusion: Data visualization and final report
 8) Future work and its limitations
 
 ###### Data Collection:
-For this project, I will use various and plenty of data sets regarding this relationship.
+For this project, I will use various data sets regarding this relationship.
 Economic factors like inflation and interest rates data sets will be collected from the FRED database which includes this data for a time-specified duration.
 I will use Google Trends for house buying in the USA to comprehend People's behavior toward house purchasing at different times in history. This data set will be collected from the Google Trends Platform.
 The Housing prices & Mortgage Debt will be gathered from FRED and MDSP.
@@ -70,4 +70,9 @@ Data Sources:
 8. Stock Market
    https://www.kaggle.com/datasets/ahmadrafiee/stock-market
    Explanation: Stock Market dataset in USA in different periods
-   
+
+9. AI tools like Chat GPT will be used for some parts.
+
+## Expected Outcome
+- The analysis will reveal how **inflation** and **interest rates** impact **real estate prices** and **home-buying behavior**.
+- The project will provide insights into how these economic conditions affect **home affordability** and predict potential future trends in the housing market.
