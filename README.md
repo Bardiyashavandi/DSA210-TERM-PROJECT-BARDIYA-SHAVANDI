@@ -15,7 +15,7 @@ Economic Agents:
 4) Mortgage Debt Service Payments (MDSP)
 5) Stock Market
    
-#### Research Questions:
+## Research Questions:
 1. How do inflation rates (CPI) influence real estate prices in the USA?
 2. What is the impact of interest rate changes on the housing market in the USA?
 3. Does GDP Growth have a significant correlation with housing market performance?
