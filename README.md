@@ -34,7 +34,7 @@ Economic Agents:
 5) Statistical Analysis: Statistical methods will be used to delve into the core of this project
 6) Predictive Modeling: Machine Learning techniques will further predict the prices in the future (if it is possible)
 7) Conclusion: Data visualization and final report
-8) Future work and its limitations (External factor which would contribute to housing market prices like political events)
+8) Future work and its limitations (External factors which would contribute to housing market prices like political events)
 
 ## Data Collection:
 For this project, I will use various data sets regarding this relationship.
@@ -54,34 +54,42 @@ These datasets will be utilized to be analyzed further:
 Data Sources:
 1. Inflation Data (CPI)
    https://fred.stlouisfed.org/series/CPIAUCSL
+   
    Explanation: Consumer Price Index (CPI) to track inflation in the U.S.
 
-2. Interest Rate Data (Federal Funds Rate)
-   https://fred.stlouisfed.org/series/FEDFUNDS  
+3. Interest Rate Data (Federal Funds Rate)
+   https://fred.stlouisfed.org/series/FEDFUNDS
+   
    Explanation: Federal Funds Rate data, which impacts borrowing costs.
 
-3. Housing Market Prices (Zillow)**  
-   https://www.zillow.com/research/data/  
+5. Housing Market Prices (Zillow)**  
+   https://www.zillow.com/research/data/
+   
    Explanation: Data on home prices across U.S. metro areas.
 
-4. Google Trends (Home-Buying Interest)  
-   https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=buy%20a%20house&hl=en 
+7. Google Trends (Home-Buying Interest)  
+   https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=buy%20a%20house&hl=en
+   
    Explanation: Search trends for keywords like "Buy a house" to gauge consumer interest.
 
-5. Mortgage Debt Service Payments (MDSP) 
-   https://fred.stlouisfed.org/series/MDSP  
+9. Mortgage Debt Service Payments (MDSP) 
+   https://fred.stlouisfed.org/series/MDSP
+   
    Explanation: The percentage of income spent on mortgage payments.
 
-6. House Price Index (HPI)  
-   https://fred.stlouisfed.org/series/USSTHPI  
+11. House Price Index (HPI)  
+   https://fred.stlouisfed.org/series/USSTHPI
+
    Explanation: A national measure of home price changes in the U.S.
 
-7. USA GDP Growth Dataset 1961-2021
+13. USA GDP Growth Dataset 1961-2021
    https://www.kaggle.com/datasets/malayvyas/usa-gdp-dataset-19612021
+
    Explanation: GDP data from 1961 until 2021 in the USA
 
-8. Stock Market
+15. Stock Market
    https://www.kaggle.com/datasets/ahmadrafiee/stock-market
+
    Explanation: Stock Market dataset in the USA in different periods
 
 ## Expected Outcome
