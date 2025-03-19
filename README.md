@@ -8,12 +8,25 @@ I will explore the relationship between these economic factors and real estate p
 I will use Exploratory analysis on these data sets and modify them. Then, I will continue by creating visualizations in order to illustrate these data sets and their correlation. I will use some statistical and machine learning to delve further into these data sets.
 In the end, I will reach a conclusion regarding this relationship's mechanism between them if it exists. The goal is to provide actionable insights into how these economic variables impact home-buying decisions, especially in fluctuating economic conditions.
 
-#### Motivation: 
+Economic Agents:
+1) Inflation rates (CPI)
+2) Interest rates
+3) USA GDP Growth
+4) Mortgage Debt Service Payments (MDSP)
+5) Stock Market
+   
+#### Research Questions:
+1. How do inflation rates (CPI) influence real estate prices in the USA?
+2. What is the impact of interest rate changes on the housing market in the USA?
+3. Does GDP Growth have a significant correlation with housing market performance?
+4. How would the stock market & Mortgage Debt Service Payments (MDSP) influence housing market prices?
+      
+##### Motivation: 
 1) Real Estate prices have a significant role in our lives and their relationship to economic factors would enhance our understanding of the reason behind these fluctuations in Housing prices.
 2) This project would aid the governments to observe whether instrumentalizing the interest rates would have any impacts on inflation and Real Estate prices or not, if so, Then this modification is helpful or not.
 3) Understanding this relationship can inform policies and help people make better home-buying decisions
 
-##### Methodology:
+###### Methodology:
 1) Data Collection: Various data will be collected and prepared to be processed
 2) Data Preprocessing: The data sets will be processed (Clean and getting rid of unuseful data)
 3) Exploratory Data Analysis (EDA): Utilizing different exploratory techniques
@@ -21,9 +34,9 @@ In the end, I will reach a conclusion regarding this relationship's mechanism be
 5) Statistical Analysis: Statistical methods will be used to delve into the core of this project
 6) Predictive Modeling: Machine Learning techniques will further predict the prices in the future (if it is possible)
 7) Conclusion: Data visualization and final report
-8) Future work and its limitations
+8) Future work and its limitations (External factor which would contribute to housing market prices like political events)
 
-###### Data Collection:
+####### Data Collection:
 For this project, I will use various data sets regarding this relationship.
 Economic factors like inflation and interest rates data sets will be collected from the FRED database which includes this data for a time-specified duration.
 I will use Google Trends for house buying in the USA to comprehend People's behavior toward house purchasing at different times in history. This data set will be collected from the Google Trends Platform.
@@ -34,9 +47,9 @@ These datasets will be utilized to be analyzed further:
 1) Inflation data (CPI) and interest rate data (FED FUNDS) will be gathered and collected from the FRED database. These datasets are available publicly and have been provided by FEDERAL RESERVE BOARD OF UNITED STATES. This file is gonna be exported in .csv extension in order to be analyzed further.
 2) Housing Market Prices will be sourced from Zillow, which provides reliable and comprehensive data on real estate trends in the United States. This file is gonna be exported in .csv extension in order to be analyzed further.
 3) Google Trends data will be collected for search interest in home-buying using Google’s trend platform. This data can be extracted manually from Google Trends for specific keywords. This file is gonna be exported in a .csv extension in order to be analyzed further.
-4) Mortgage Debt Service Payments (MDSP) and House Price Index (HPI) data will also be sourced from FRED, which provides detailed datasets on economic indicators. This file is gonna be exported in .csv extension in order to be analyzed further.
-5) USA GDP Growth Dataset 1961-2021 will be collected from kaggle. This file is gonna be exported in a .csv extension in order to be analyzed further.
-6) USA stock market will be extracted from kaggle. This file is gonna be exported in a .csv extension in order to be analyzed further.
+4) Mortgage Debt Service Payments (MDSP) and House Price Index (HPI) data will also be sourced from FRED, which provides detailed datasets on economic indicators. This file is gonna be exported in a .csv extension in order to be analyzed further.
+5) The USA GDP Growth Dataset 1961-2021 will be collected from Kaggle. This file is gonna be exported in a .csv extension in order to be analyzed further.
+6) The USA stock market will be extracted from Kaggle. This file is gonna be exported in a .csv extension in order to be analyzed further.
 
 Data Sources:
 1. Inflation Data (CPI)
@@ -65,13 +78,11 @@ Data Sources:
 
 7. USA GDP Growth Dataset 1961-2021
    https://www.kaggle.com/datasets/malayvyas/usa-gdp-dataset-19612021
-   Explanation: GDP data from 1961 until 2021 in USA
+   Explanation: GDP data from 1961 until 2021 in the USA
 
 8. Stock Market
    https://www.kaggle.com/datasets/ahmadrafiee/stock-market
-   Explanation: Stock Market dataset in USA in different periods
-
-9. AI tools like Chat GPT will be used for some parts.
+   Explanation: Stock Market dataset in the USA in different periods
 
 ## Expected Outcome
 - The analysis will reveal how **inflation** and **interest rates** impact **real estate prices** and **home-buying behavior**.
