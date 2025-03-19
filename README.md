@@ -60,30 +60,44 @@ Data Sources:
 
 3. Interest Rate Data (Federal Funds Rate)
    https://fred.stlouisfed.org/series/FEDFUNDS
+
+   
    Explanation: Federal Funds Rate data, which impacts borrowing costs.
 
-4. Housing Market Prices (Zillow)**  
+5. Housing Market Prices (Zillow)**  
    https://www.zillow.com/research/data/
+
+   
    Explanation: Data on home prices across U.S. metro areas.
 
-5. Google Trends (Home-Buying Interest)  
+7. Google Trends (Home-Buying Interest)  
    https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=buy%20a%20house&hl=en
+
+   
    Explanation: Search trends for keywords like "Buy a house" to gauge consumer interest.
 
-6. Mortgage Debt Service Payments (MDSP) 
+9. Mortgage Debt Service Payments (MDSP) 
    https://fred.stlouisfed.org/series/MDSP
+
+   
    Explanation: The percentage of income spent on mortgage payments.
 
-7. House Price Index (HPI)  
+11. House Price Index (HPI)  
    https://fred.stlouisfed.org/series/USSTHPI
+
+
    Explanation: A national measure of home price changes in the U.S.
 
-8. USA GDP Growth Dataset 1961-2021
+13. USA GDP Growth Dataset 1961-2021
    https://www.kaggle.com/datasets/malayvyas/usa-gdp-dataset-19612021
+
+
    Explanation: GDP data from 1961 until 2021 in the USA
 
-9. Stock Market
+15. Stock Market
    https://www.kaggle.com/datasets/ahmadrafiee/stock-market
+
+
    Explanation: Stock Market dataset in the USA in different periods
 
 ## Expected Outcome
