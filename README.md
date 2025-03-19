@@ -73,8 +73,8 @@ Data Sources:
    Explanation: The percentage of income spent on mortgage payments.
 
 6. House Price Index (HPI)  
-  https://fred.stlouisfed.org/series/USSTHPI  
-  Explanation: A national measure of home price changes in the U.S.
+   https://fred.stlouisfed.org/series/USSTHPI  
+   Explanation: A national measure of home price changes in the U.S.
 
 7. USA GDP Growth Dataset 1961-2021
    https://www.kaggle.com/datasets/malayvyas/usa-gdp-dataset-19612021
