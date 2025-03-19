@@ -2,7 +2,7 @@
 
 ## Project Question: How Do Economic Agents Change Influence Real Estate Prices and Home-Buying Trends in the USA?
 
-### Project Description
+## Project Description
 This project aims to analyze and explore the economic agents' impacts (Inflation and interest rates,..) on real estate prices and how that contributes to people's behavior toward buying houses.
 I will explore the relationship between these economic factors and real estate prices if it exist or not. The project will leverage historical data on inflation rates (CPI), Federal Funds rates, and housing prices (from sources such as Zillow and FRED) to identify patterns and correlations.
 I will use Exploratory analysis on these data sets and modify them. Then, I will continue by creating visualizations in order to illustrate these data sets and their correlation. I will use some statistical and machine learning to delve further into these data sets.
@@ -21,12 +21,12 @@ Economic Agents:
 3. Does GDP Growth have a significant correlation with housing market performance?
 4. How would the stock market & Mortgage Debt Service Payments (MDSP) influence housing market prices?
       
-##### Motivation: 
+## Motivation: 
 1) Real Estate prices have a significant role in our lives and their relationship to economic factors would enhance our understanding of the reason behind these fluctuations in Housing prices.
 2) This project would aid the governments to observe whether instrumentalizing the interest rates would have any impacts on inflation and Real Estate prices or not, if so, Then this modification is helpful or not.
 3) Understanding this relationship can inform policies and help people make better home-buying decisions
 
-##### Methodology:
+## Methodology:
 1) Data Collection: Various data will be collected and prepared to be processed
 2) Data Preprocessing: The data sets will be processed (Clean and getting rid of unuseful data)
 3) Exploratory Data Analysis (EDA): Utilizing different exploratory techniques
@@ -36,7 +36,7 @@ Economic Agents:
 7) Conclusion: Data visualization and final report
 8) Future work and its limitations (External factor which would contribute to housing market prices like political events)
 
-####### Data Collection:
+## Data Collection:
 For this project, I will use various data sets regarding this relationship.
 Economic factors like inflation and interest rates data sets will be collected from the FRED database which includes this data for a time-specified duration.
 I will use Google Trends for house buying in the USA to comprehend People's behavior toward house purchasing at different times in history. This data set will be collected from the Google Trends Platform.
