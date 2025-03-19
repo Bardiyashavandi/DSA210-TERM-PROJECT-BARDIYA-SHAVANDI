@@ -26,7 +26,7 @@ Economic Agents:
 2) This project would aid the governments to observe whether instrumentalizing the interest rates would have any impacts on inflation and Real Estate prices or not, if so, Then this modification is helpful or not.
 3) Understanding this relationship can inform policies and help people make better home-buying decisions
 
-###### Methodology:
+##### Methodology:
 1) Data Collection: Various data will be collected and prepared to be processed
 2) Data Preprocessing: The data sets will be processed (Clean and getting rid of unuseful data)
 3) Exploratory Data Analysis (EDA): Utilizing different exploratory techniques
