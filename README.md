@@ -26,6 +26,24 @@ Economic Agents:
 2) This project would aid the governments to observe whether instrumentalizing the interest rates would have any impacts on inflation and Real Estate prices or not, if so, Then this modification is helpful or not.
 3) Understanding this relationship can inform policies and help people make better home-buying decisions
 
+## Hypothesis testing:
+
+Hypothesis for Inflation (CPIAUCSL) and Housing Prices (USSTHPI):
+Null Hypothesis (H0): There is no significant relationship between inflation (CPIAUCSL) and housing prices (USSTHPI).
+Alternative Hypothesis (H1): There is a significant relationship between inflation (CPIAUCSL) and housing prices (USSTHPI).
+
+Hypothesis for Interest Rates (FEDFUNDS) and Housing Prices (USSTHPI):
+Null Hypothesis (H0): There is no significant relationship between interest rates (FEDFUNDS) and housing prices (USSTHPI).
+Alternative Hypothesis (H1): There is a significant relationship between interest rates (FEDFUNDS) and housing prices (USSTHPI).
+
+Hypothesis for Stock Market (Close) and Housing Prices (USSTHPI):
+Null Hypothesis (H0): There is no significant relationship between stock market performance (Close) and housing prices (USSTHPI).
+Alternative Hypothesis (H1): There is a significant relationship between stock market performance (Close) and housing prices (USSTHPI).
+
+Hypothesis for Mortgage Debt Service Payments (MDSP) and Housing Prices (USSTHPI):
+Null Hypothesis (H0): There is no significant relationship between mortgage debt service payments (MDSP) and housing prices (USSTHPI).
+Alternative Hypothesis (H1): There is a significant relationship between mortgage debt service payments (MDSP) and housing prices (USSTHPI).
+
 ## Methodology:
 1) Data Collection: Various data will be collected and prepared to be processed
 2) Data Preprocessing: The data sets will be processed (Clean and getting rid of unuseful data)
