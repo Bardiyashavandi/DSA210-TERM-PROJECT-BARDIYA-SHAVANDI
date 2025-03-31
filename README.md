@@ -29,19 +29,27 @@ Economic Agents:
 ## Hypothesis testing:
 
 Hypothesis for Inflation (CPIAUCSL) and Housing Prices (USSTHPI):
+
 Null Hypothesis (H0): There is no significant relationship between inflation (CPIAUCSL) and housing prices (USSTHPI).
+
 Alternative Hypothesis (H1): There is a significant relationship between inflation (CPIAUCSL) and housing prices (USSTHPI).
 
 Hypothesis for Interest Rates (FEDFUNDS) and Housing Prices (USSTHPI):
+
 Null Hypothesis (H0): There is no significant relationship between interest rates (FEDFUNDS) and housing prices (USSTHPI).
+
 Alternative Hypothesis (H1): There is a significant relationship between interest rates (FEDFUNDS) and housing prices (USSTHPI).
 
 Hypothesis for Stock Market (Close) and Housing Prices (USSTHPI):
+
 Null Hypothesis (H0): There is no significant relationship between stock market performance (Close) and housing prices (USSTHPI).
+
 Alternative Hypothesis (H1): There is a significant relationship between stock market performance (Close) and housing prices (USSTHPI).
 
 Hypothesis for Mortgage Debt Service Payments (MDSP) and Housing Prices (USSTHPI):
+
 Null Hypothesis (H0): There is no significant relationship between mortgage debt service payments (MDSP) and housing prices (USSTHPI).
+
 Alternative Hypothesis (H1): There is a significant relationship between mortgage debt service payments (MDSP) and housing prices (USSTHPI).
 
 ## Methodology:
