@@ -11,15 +11,14 @@ In the end, I will reach a conclusion regarding this relationship's mechanism be
 Economic Agents:
 1) Inflation rates (CPI)
 2) Interest rates
-3) USA GDP Growth
-4) Mortgage Debt Service Payments (MDSP)
-5) Stock Market
+3) Mortgage Debt Service Payments (MDSP)
+4) Stock Market
    
 ## Research Questions:
 1. How do inflation rates (CPI) influence real estate prices in the USA?
 2. What is the impact of interest rate changes on the housing market in the USA?
-3. Does GDP Growth have a significant correlation with housing market performance?
-4. How would the stock market & Mortgage Debt Service Payments (MDSP) influence housing market prices?
+3. Does stock market have a significant correlation with housing market performance?
+4. How would the Mortgage Debt Service Payments (MDSP) influence housing market prices?
       
 ## Motivation: 
 1) Real Estate prices have a significant role in our lives and their relationship to economic factors would enhance our understanding of the reason behind these fluctuations in Housing prices.
@@ -67,17 +66,14 @@ Alternative Hypothesis (H1): There is a significant relationship between mortgag
 ## Data Collection:
 For this project, I will use various data sets regarding this relationship.
 Economic factors like inflation and interest rates data sets will be collected from the FRED database which includes this data for a time-specified duration.
-I will use Google Trends for house buying in the USA to comprehend People's behavior toward house purchasing at different times in history. This data set will be collected from the Google Trends Platform.
 The Housing prices & Mortgage Debt will be gathered from FRED and MDSP.
 Further data sets may be collected and utilized during data collection regarding economic agents to enhance this project in terms of its understanding of the mechanism.
 
 These datasets will be utilized to be analyzed further:
 1) Inflation data (CPI) and interest rate data (FED FUNDS) will be gathered and collected from the FRED database. These datasets are available publicly and have been provided by FEDERAL RESERVE BOARD OF UNITED STATES. This file is gonna be exported in .csv extension in order to be analyzed further.
 2) Housing Market Prices will be sourced from Zillow, which provides reliable and comprehensive data on real estate trends in the United States. This file is gonna be exported in .csv extension in order to be analyzed further.
-3) Google Trends data will be collected for search interest in home-buying using Google’s trend platform. This data can be extracted manually from Google Trends for specific keywords. This file is gonna be exported in a .csv extension in order to be analyzed further.
-4) Mortgage Debt Service Payments (MDSP) and House Price Index (HPI) data will also be sourced from FRED, which provides detailed datasets on economic indicators. This file is gonna be exported in a .csv extension in order to be analyzed further.
-5) The USA GDP Growth Dataset 1961-2021 will be collected from Kaggle. This file is gonna be exported in a .csv extension in order to be analyzed further.
-6) The USA stock market will be extracted from Kaggle. This file is gonna be exported in a .csv extension in order to be analyzed further.
+3) Mortgage Debt Service Payments (MDSP) and House Price Index (HPI) data will also be sourced from FRED, which provides detailed datasets on economic indicators. This file is gonna be exported in a .csv extension in order to be analyzed further.
+4) The USA stock market will be extracted from Kaggle. This file is gonna be exported in a .csv extension in order to be analyzed further.
 
 Data Sources:
 1. Inflation Data (CPI)
@@ -92,37 +88,19 @@ Data Sources:
    
    Explanation: Federal Funds Rate data, which impacts borrowing costs.
 
-3. Housing Market Prices (Zillow)**  
-   https://www.zillow.com/research/data/
-
-   
-   Explanation: Data on home prices across U.S. metro areas.
-
-4. Google Trends (Home-Buying Interest)  
-   https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=buy%20a%20house&hl=en
-
-   
-   Explanation: Search trends for keywords like "Buy a house" to gauge consumer interest.
-
-5. Mortgage Debt Service Payments (MDSP) 
+3. Mortgage Debt Service Payments (MDSP) 
    https://fred.stlouisfed.org/series/MDSP
 
    
    Explanation: The percentage of income spent on mortgage payments.
 
-6. House Price Index (HPI)  
+4. House Price Index (HPI)  
    https://fred.stlouisfed.org/series/USSTHPI
 
 
    Explanation: A national measure of home price changes in the U.S.
 
-7. USA GDP Growth Dataset 1961-2021
-   https://www.kaggle.com/datasets/malayvyas/usa-gdp-dataset-19612021
-
-
-   Explanation: GDP data from 1961 until 2021 in the USA
-
-8. Stock Market
+5. Stock Market
    https://www.kaggle.com/datasets/ahmadrafiee/stock-market
 
 
