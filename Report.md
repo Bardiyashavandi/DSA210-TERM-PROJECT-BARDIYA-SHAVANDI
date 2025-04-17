@@ -88,10 +88,16 @@ The scatter plot illustrates the relationship between Housing Prices (USSTHPI) a
 
 ![Interest rate](https://github.com/user-attachments/assets/ae49b9a6-dffa-443f-b5db-6e6554c51812)
 
-It represents a little correlation between them.
+There is a weak correlation between these two variables, which represent meaningful outcomes.
 
 ![scatterploy](https://github.com/user-attachments/assets/9301f5ad-e365-4f72-851b-084374b6ba64)
 
 The scatter plot depicting the relationship between Mortgage Debt (MDSP) and Housing Prices (USSTHPI) shows a weak negative correlation, as indicated by the downward sloping red regression line. 
 
 Hypothesis Testing: The hypothesis testing was conducted to evaluate the correlation between various economic factors—namely, inflation (CPIAUCSL), interest rates (FEDFUNDS), stock market performance (Close), and mortgage debt service payments (MDSP)—and housing prices (USSTHPI). We utilized Pearson's correlation coefficient to test the strength and significance of these relationships. Each hypothesis was tested with a null hypothesis stating that there is no significant relationship between the economic factors and housing prices. The p-values for each correlation were compared to a threshold of 0.05; if the p-value was less than 0.05, the null hypothesis was rejected, indicating a statistically significant relationship. The results of the analysis revealed strong and significant correlations across all variables. For instance, the correlation between inflation (CPIAUCSL) and housing prices (USSTHPI) was found to be 0.856, with an extremely low p-value (close to zero), signaling a strong positive relationship. Similarly, significant correlations were found between housing prices and the other factors: interest rates (FEDFUNDS), stock market performance (Close), and mortgage debt service payments (MDSP). These results collectively suggest that all the examined economic factors have a meaningful impact on housing prices in the observed period.
+
+Time-series:
+
+![Timeseries](https://github.com/user-attachments/assets/d93b3f5e-637d-4a87-b017-484b56290da3)
+
+This plot highlights the trends and fluctuations in housing prices during this period. The index shows a significant increase in the years around 2004 to 2008, likely driven by a housing boom. However, there is a noticeable dip after 2008, which corresponds with the global financial crisis and the subsequent housing market crash. Following this downturn, the plot shows a steady recovery in housing prices, reflecting the post-crisis rebound and ongoing recovery until the present day. This trend underscores the cyclical nature of the housing market and provides valuable insight into the economic conditions influencing housing prices over time. The visual helps to emphasize how macroeconomic factors, including inflation, interest rates, and debt service levels, may influence the housing market.
