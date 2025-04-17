@@ -11,8 +11,6 @@
 
 ## Introduction
 
-## Introduction
-
 The United States housing market is one the most significant variables in global economy which affects people including investors and policymakers. Numerous factors affect its performance, including inflation, interest rates, stock market performance, and mortgage debt.
 Understanding the relationships between these economic indicators and housing prices is crucial for people in oeder to make the most efficient decision.
 
@@ -31,3 +29,7 @@ The datasets used in this project include:
 - **House Price Index (USSTHPI)**: The central measure of housing prices over time in the U.S.
   
 In the following sections, we describe the methodology used to analyze the data, present the findings, and discuss the implications of our results.
+
+## Methodology
+
+
