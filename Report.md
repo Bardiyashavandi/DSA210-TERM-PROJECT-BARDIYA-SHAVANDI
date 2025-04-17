@@ -2,7 +2,6 @@
 
 ## Topic: USA Housing Prices fluctuations based on the economic agents    
 ## Student: Bardiya Shavandi
-## Course: DSA210
 
 ## Contents
 1. Introduction
