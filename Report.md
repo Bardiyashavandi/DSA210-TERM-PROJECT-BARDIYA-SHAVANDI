@@ -63,9 +63,13 @@ These datasets were retrieved in CSV format.
 7) Outlier Detection: I made the function for this purpose, and I disregard and remove these outliers. After that, I checked these datasets with a suspicious cluster, and the ones that remained are extreme values, and they are not outliers.
 
 8) Visualization: I made numerous visuals out of these datasets separately to comprehend them.
+   
    Histograms: To see the distribution and frequency
+   
    Scatterplots: To observe the relationship between variables and the house price index
+   
    Time series: To see the fluctuation in date
+   
    Matrix: Correlation between them
 
    
