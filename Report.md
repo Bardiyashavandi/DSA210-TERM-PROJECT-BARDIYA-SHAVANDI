@@ -59,3 +59,15 @@ These datasets were retrieved in CSV format.
 6) Box Plot: I created a Box Plot for each variable to have an advanced overview of the datasets. Furthermore, we detected some clusters out of range, which will be analyzed further by outlier detection to ensure that if an outlier exists, it should be removed.
 
 ![plotshouse_price_index_boxplot](https://github.com/user-attachments/assets/77e63df4-ffda-41ce-830f-16bdac65e3f5)
+
+7) Outlier Detection: I made the function for this purpose, and I disregard and remove these outliers. After that, I checked these datasets with a suspicious cluster, and the ones that remained are extreme values, and they are not outliers.
+
+8) Visualization: I made numerous visuals out of these datasets separately to comprehend them.
+   Histograms: To see the distribution and frequency
+   Scatterplots: To observe the relationship between variables and the house price index
+   Time series: To see the fluctuation in date
+   Matrix: Correlation between them
+   ![scatterploy](https://github.com/user-attachments/assets/9bfa7cdc-7a39-4d4b-b062-eba37a26a09c)
+
+
+9) I used Pearson to utilize Hypothesis testing for each dataset and the house price index.
