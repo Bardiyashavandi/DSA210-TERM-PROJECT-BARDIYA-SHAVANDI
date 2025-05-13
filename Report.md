@@ -32,6 +32,22 @@ The datasets used in this project include:
   
 In the following sections, we describe the methodology used to analyze the data, present the findings, and discuss the implications of our results.
 
+## Target Variable and Features
+
+### Target Variable
+The target variable in this project is **USSTHPI (House Price Index)**, which represents the changes in housing prices over time.
+
+### Features
+The features used to predict housing prices include:
+- **Inflation (CPIAUCSL)**: The inflation rate in the U.S. over the analysis period.
+- **Interest Rates (FEDFUNDS)**: The federal funds rate, representing the cost of borrowing.
+- **Stock Market (Close)**: Stock market performance (closing prices of major indices).
+- **Mortgage Debt Service Payments (MDSP)**: Payments made by households for mortgages.
+- **Unemployment Rate**: The unemployment rate in the U.S.
+- **GDP**: The U.S. Gross Domestic Product over the years.
+
+These features are used in conjunction to predict the target variable, **USSTHPI**.
+
 ## Methodology
 
 ### Data Collection
