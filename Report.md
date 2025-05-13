@@ -98,9 +98,9 @@ These datasets were retrieved in CSV format.
 
 10) I used Pearson to utilize Hypothesis testing for each dataset and the house price index.
     
-#### Machine Learning models
+# Machine Learning models
 
-# Preparation
+#### Preparation
 1) I prepared and merged the datasets in order to be ready for machine learning methods. I handled any date formatting issues by ensuring all datasets had consistent datetime formats so that we could properly merge them based on the date.
 
 2) Feature engineering: I enriched the project by addding two more data sets (GDP & UNEMPLOYMENT), also I create new columns for modelling like lagged dataset columns. Lag features show how current values compare with previous ones (e.g., yesterday’s stock market price or inflation), while rolling averages smooth out the data to highlight long-term trends.
@@ -115,7 +115,7 @@ In this plot, we compare the lagged column and the default one, which represents
 
 5) I handled the missing values after feature engineering by using forward and backward fill.
 
-## Machine learning methods
+#### Machine learning methods
 
 
 
