@@ -1,6 +1,6 @@
 # DSA 210 Project Analysis Report
 
-## Topic: USA Housing Prices fluctuations based on the economic agents    
+## Topic: USA Housing Prices changes based on the economic agents    
 ## Student: Bardiya Shavandi
 
 ## Contents
