@@ -97,6 +97,26 @@ These datasets were retrieved in CSV format.
 
 
 10) I used Pearson to utilize Hypothesis testing for each dataset and the house price index.
+    
+#### Machine Learning models
+
+# Preparation
+1) I prepared and merged the datasets in order to be ready for machine learning methods. I handled any date formatting issues by ensuring all datasets had consistent datetime formats so that we could properly merge them based on the date.
+
+2) Feature engineering: I enriched the project by addding two more data sets (GDP & UNEMPLOYMENT), also I create new columns for modelling like lagged dataset columns. Lag features show how current values compare with previous ones (e.g., yesterday’s stock market price or inflation), while rolling averages smooth out the data to highlight long-term trends.
+
+3) To better understand the relationship between different economic factors and housing prices, we transformed some features, such as calculating the percentage change in housing prices compared to the previous period, to capture trends over time.
+
+4) After cleaning, enriching, and transforming the data, we merged multiple datasets (e.g., inflation data with housing price index, interest rates with housing prices, etc.) using the observation_date to get a unified dataset. This allowed us to analyze the combined effects of different economic factors on housing prices.
+   
+![Unknown](https://github.com/user-attachments/assets/5a6e5319-085d-4abd-8d3c-88335060afce)
+
+In this plot, we compare the lagged column and the default one, which represents that past housing price movements have a notable influence on future prices. This visualization can help us understand trends and cycles in housing prices and their temporal relationships with past data.
+
+5) I handled the missing values after feature engineering by using forward and backward fill.
+
+## Machine learning methods
+
 
 
 #### Findings
