@@ -11,8 +11,8 @@
 
 ## Introduction
 
-The United States housing market is one the most significant variables in global economy which affects people including investors and policymakers. Numerous factors affect its performance, including inflation, interest rates, stock market performance, and mortgage debt.
-Understanding the relationships between these economic indicators and housing prices is crucial for people in oeder to make the most efficient decision.
+The United States housing market is one the most significant variables in global economy which affects people including investors and policymakers. Numerous factors affect its performance, including inflation, interest rates, stock market performance, mortgage debt, unemployment and GDP.
+Understanding the relationships between these economic indicators and housing prices is crucial for people in order to make the most efficient decision.
 
 The primary objectives of this project are:
 - To examine how inflation (CPI), interest rates (FEDFUNDS), and mortgage debt service payments influence the housing market.
@@ -25,7 +25,9 @@ The datasets used in this project include:
 - **Inflation Data (CPI)**: To measure inflation rates and assess its effect on housing prices.
 - **Interest Rates (FEDFUNDS)**: To explore how changes in interest rates impact housing affordability and demand.
 - **Stock Market Data**: To understand how stock market performance correlates with housing prices.
-- **Mortgage Debt Service Payments (MDSP)**: To gauge the effect of mortgage affordability on home buying trends.
+- **Mortgage Debt Service Payments (MDSP)**: To understand the effect of mortgage affordability on home buying trends.
+- **GDP** : The effect of gdp on house prices
+- **Unemployment** : How would changes on unemployment rate affect it?
 - **House Price Index (USSTHPI)**: The central measure of housing prices over time in the U.S.
   
 In the following sections, we describe the methodology used to analyze the data, present the findings, and discuss the implications of our results.
@@ -41,6 +43,8 @@ For this project, we collected publicly available datasets related to the U.S. h
 3. **Stock Market Data**: We used data for the **closing prices of major stock market indices** (e.g., S&P 500, Dow Jones). This data was sourced from **Kaggle** and provides insights into how market conditions affect housing prices.
 4. **Mortgage Debt Service Payments (MDSP)**: This dataset includes information on the proportion of disposable income allocated to mortgage payments, sourced from **FRED**.
 5. **House Price Index (USSTHPI)**: The **House Price Index** tracks the average price changes of single-family homes in the United States over time. This dataset was sourced from **FRED** and is central to this project as we aim to explore how various economic factors influence housing prices.
+6. GDP : from FRED
+7. Unemployment : from FRED
 
 These datasets were retrieved in CSV format.
 
