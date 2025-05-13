@@ -13,6 +13,9 @@ Economic Agents:
 2) Interest rates
 3) Mortgage Debt Service Payments (MDSP)
 4) Stock Market
+5) Unemployment
+6) GDP
+
    
 ## Research Questions:
 1. How do inflation rates (CPI) influence real estate prices in the USA?
@@ -51,7 +54,17 @@ Null Hypothesis (H0): There is no significant relationship between mortgage debt
 
 Alternative Hypothesis (H1): There is a significant relationship between mortgage debt service payments (MDSP) and housing prices (USSTHPI).
 
+ 5) Hypothesis for GDP and Housing Prices (USSTHPI):
 
+Null Hypothesis (H0): There is no significant relationship between GDP and housing prices (USSTHPI).
+
+Alternative Hypothesis (H1): There is a significant relationship between GDP and housing prices (USSTHPI).
+
+ 6) Hypothesis for Unemployment and Housing Prices (USSTHPI):
+
+Null Hypothesis (H0): There is no significant relationship between unemployment and housing prices (USSTHPI).
+
+Alternative Hypothesis (H1): There is a significant relationship between unemployment and housing prices (USSTHPI).
 
 ## Methodology:
 1) Data Collection: Various data will be collected and prepared to be processed
@@ -59,7 +72,7 @@ Alternative Hypothesis (H1): There is a significant relationship between mortgag
 3) Exploratory Data Analysis (EDA): Utilizing different exploratory techniques
 4) Visualization: Plenty of visuals will be created regarding all data sets and their relevance
 5) Statistical Analysis: Statistical methods will be used to delve into the core of this project
-6) Predictive Modeling: Machine Learning techniques will further predict the prices in the future (if it is possible)
+6) Predictive Modeling: Machine Learning techniques will further predict the prices in the future 
 7) Conclusion: Data visualization and final report
 8) Future work and its limitations (External factors which would contribute to housing market prices like political events)
 
@@ -74,7 +87,9 @@ These datasets will be utilized to be analyzed further:
 2) Housing Market Prices will be sourced from Zillow, which provides reliable and comprehensive data on real estate trends in the United States. This file is gonna be exported in .csv extension in order to be analyzed further.
 3) Mortgage Debt Service Payments (MDSP) and House Price Index (HPI) data will also be sourced from FRED, which provides detailed datasets on economic indicators. This file is gonna be exported in a .csv extension in order to be analyzed further.
 4) The USA stock market will be extracted from Kaggle. This file is gonna be exported in a .csv extension in order to be analyzed further.
-
+5) GDP
+6) Unemployment
+   
 Data Sources:
 1. Inflation Data (CPI)
    https://fred.stlouisfed.org/series/CPIAUCSL
@@ -105,7 +120,14 @@ Data Sources:
 
 
    Explanation: Stock Market dataset in the USA in different periods
+   
+7. GDP
+    https://fred.stlouisfed.org/series/GDP
 
+8. Unemployment
+   https://fred.stlouisfed.org/series/UNRATE
+
+   
 ## Expected Outcome
 - The analysis will reveal how **inflation** and **interest rates** impact **real estate prices** and **home-buying behavior**.
 - The project will provide insights into how these economic conditions affect **home affordability** and predict potential future trends in the housing market.
