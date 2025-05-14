@@ -78,7 +78,7 @@ These datasets were retrieved in CSV format.
 
 6) Box Plot: I created a Box Plot for each variable to have an advanced overview of the datasets. Furthermore, we detected some clusters out of range, which will be analyzed further by outlier detection to ensure that if an outlier exists, it should be removed.
 
-![plotshouse_price_index_boxplot](https://github.com/user-attachments/assets/77e63df4-ffda-41ce-830f-16bdac65e3f5)
+    ![plotshouse_price_index_boxplot](https://github.com/user-attachments/assets/77e63df4-ffda-41ce-830f-16bdac65e3f5)
 
 7) Outlier Detection: I made the function for this purpose, and I disregard and remove these outliers. After that, I checked these datasets with a suspicious cluster, and the ones that remained are extreme values, and they are not outliers.
 
@@ -109,7 +109,7 @@ These datasets were retrieved in CSV format.
 
 4) After cleaning, enriching, and transforming the data, we merged multiple datasets (e.g., inflation data with housing price index, interest rates with housing prices, etc.) using the observation_date to get a unified dataset. This allowed us to analyze the combined effects of different economic factors on housing prices.
    
-![Unknown](https://github.com/user-attachments/assets/5a6e5319-085d-4abd-8d3c-88335060afce)
+    ![Unknown](https://github.com/user-attachments/assets/5a6e5319-085d-4abd-8d3c-88335060afce)
 
 In this plot, we compare the lagged column and the default one, which represents that past housing price movements have a notable influence on future prices. This visualization can help us understand trends and cycles in housing prices and their temporal relationships with past data.
 
@@ -139,15 +139,15 @@ Month and FEDFUNDS (current value) also had moderate impact, possibly due to sea
 #### Findings
 
 
-![Inflation](https://github.com/user-attachments/assets/9ba50811-a5bc-4074-980d-4a57a7f16d0a)
+  ![Inflation](https://github.com/user-attachments/assets/9ba50811-a5bc-4074-980d-4a57a7f16d0a)
 
 The scatter plot illustrates the relationship between Housing Prices (USSTHPI) and Inflation (CPIAUCSL). It shows a clear positive correlation, where an increase in inflation appears to correspond with higher housing prices. The red dashed line represents the linear regression line, highlighting the upward trend, which suggests that as inflation rises, housing prices tend to follow suit. This visualization helps in understanding the potential influence of inflation on the housing market.
 
-![Interest rate](https://github.com/user-attachments/assets/ae49b9a6-dffa-443f-b5db-6e6554c51812)
+  ![Interest rate](https://github.com/user-attachments/assets/ae49b9a6-dffa-443f-b5db-6e6554c51812)
 
 There is a weak correlation between these two variables, which represent meaningful outcomes.
 
-![scatterploy](https://github.com/user-attachments/assets/9301f5ad-e365-4f72-851b-084374b6ba64)
+  ![scatterploy](https://github.com/user-attachments/assets/9301f5ad-e365-4f72-851b-084374b6ba64)
 
 The scatter plot depicting the relationship between Mortgage Debt (MDSP) and Housing Prices (USSTHPI) shows a weak negative correlation, as indicated by the downward sloping red regression line. 
 
@@ -155,18 +155,18 @@ Hypothesis Testing: The hypothesis testing was conducted to evaluate the correla
 
 Time-series:
 
-![Timeseries](https://github.com/user-attachments/assets/d93b3f5e-637d-4a87-b017-484b56290da3)
+  ![Timeseries](https://github.com/user-attachments/assets/d93b3f5e-637d-4a87-b017-484b56290da3)
 
 This plot highlights the trends and fluctuations in housing prices during this period. The index shows a significant increase in the years around 2004 to 2008, likely driven by a housing boom. However, there is a noticeable dip after 2008, which corresponds with the global financial crisis and the subsequent housing market crash. Following this downturn, the plot shows a steady recovery in housing prices, reflecting the post-crisis rebound and ongoing recovery until the present day. This trend underscores the cyclical nature of the housing market and provides valuable insight into the economic conditions influencing housing prices over time. The visual helps to emphasize how macroeconomic factors, including inflation, interest rates, and debt service levels, may influence the housing market.
 
 Matrix:
 
-![Unknown](https://github.com/user-attachments/assets/10c3711e-416f-4b81-aa95-e50997ea108f)
+  ![Unknown](https://github.com/user-attachments/assets/10c3711e-416f-4b81-aa95-e50997ea108f)
 
 The heatmap visually represents the strength of correlation using color coding, where values closer to 1 indicate a strong positive correlation (red) and values closer to -1 indicate a strong negative correlation (blue). From the heatmap, we can see that the House Price Index (USSTHPI) has a strong positive correlation with Inflation (CPIAUCSL), with a value of 0.86. In contrast, there is a weaker negative correlation with other variables like Federal Funds Rate (FEDFUNDS) and Mortgage Debt Service Payments (MDSP). The Stock Market (Close) exhibits a modest positive correlation with housing prices (0.36), suggesting that market trends do have some level of influence on housing prices, but it is not as strong as other factors. This heatmap provides valuable insight into how different economic indicators are interconnected and how they might influence the housing market. Furthermore, There is strong relationship between GDP vs house price index , also there is strong relationship between UNRATE vs house price index.
 
 Time-series (complete):
 
-![TI](https://github.com/user-attachments/assets/c3bc07d9-2aba-49e6-97a7-6b2fe9053cf4)
+  ![TI](https://github.com/user-attachments/assets/c3bc07d9-2aba-49e6-97a7-6b2fe9053cf4)
 
 This chart shows how the stock market’s closing values changed from around 2002 to 2021. Overall, the market’s been climbing steadily, with some bumps along the way. There’s a big drop around 2008 — that lines up with the global financial crisis — and another dip in 2020, which was probably due to the COVID-19 pandemic. Even with those hits, the market always seems to bounce back stronger. The shaded area around the line shows how much the values vary — and you can see that this uncertainty or volatility has gotten wider in recent years, meaning things have been more unpredictable. Still, by the end of the chart, the stock market is closing at some of its highest points ever. So, despite the chaos, the long-term direction has been up.
