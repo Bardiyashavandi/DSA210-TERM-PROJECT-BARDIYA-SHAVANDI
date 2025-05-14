@@ -122,7 +122,7 @@ In this plot, we compare the lagged column and the default one, which represents
    X = All columns except for housing price index 
    Y = Housing price index (target)
    
-2) I used random forest model to observe and evaluate how well the trained Random Forest model is performing by comparing its predictions to the actual values. It uses common metrics like Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R-squared (R²).
+2) RANDOM FOREST: I used random forest model to observe and evaluate how well the trained Random Forest model is performing by comparing its predictions to the actual values. It uses common metrics like Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R-squared (R²).
 
     ![Unknown](https://github.com/user-attachments/assets/132b8033-546a-43d1-8500-56a46f491a2c)
 
@@ -134,7 +134,7 @@ USSTHPI_Lag1: The housing price index from the previous month — suggesting tha
 FEDFUNDS_Rolling_Mean_3months: The 3-month average of the federal funds interest rate, which affects borrowing costs and spending.
 Month and FEDFUNDS (current value) also had moderate impact, possibly due to seasonal effects and policy changes.
 
-3) I utilized unsupervised learning (K-means Clustering) in order to create the model. To explore hidden patterns in the data without using labeled outputs, we applied K-Means clustering, an unsupervised learning method. Here's how the process unfolded:
+3) K-MEANS CUSTERING: I utilized unsupervised learning (K-means Clustering) in order to create the model. To explore hidden patterns in the data without using labeled outputs, we applied K-Means clustering, an unsupervised learning method. Here's how the process unfolded:
 
 Feature Selection:
 We selected seven key economic indicators for clustering:
