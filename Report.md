@@ -145,7 +145,14 @@ We applied K-Means with 3 clusters and used Principal Component Analysis (PCA) t
 Cluster Interpretation:
 To understand the characteristics of each group, we printed descriptive statistics for each cluster. These summaries help identify patterns such as which cluster contains periods of high housing prices or low unemployment.
 
-4)
+4) KNN: We applied the K-Nearest Neighbors Regressor with k = 5 to predict housing prices (USSTHPI). The model was trained on scaled training data and evaluated using standard regression metrics:
+
+Mean Squared Error (MSE): [insert value from output]
+Root Mean Squared Error (RMSE): [insert value]
+R² Score: [insert value]
+These values indicate how well the KNN model performs in capturing patterns in the data. A lower RMSE means predictions are close to actual values, while an R² close to 1 shows a good fit.
+
+
 #### Findings
 
 
@@ -199,6 +206,14 @@ These results indicate that the model performs exceptionally well. The very low 
 Predicted vs. Actual Values Plot:
 The scatter plot compares the actual housing prices (USSTHPI) with the values predicted by our Random Forest model. Each point represents a prediction for a test data point. The diagonal dashed line indicates perfect predictions (i.e., predicted = actual). The closer the points are to this line, the better the model's performance.
 In our plot, most points closely align with the diagonal, showing that the model is accurately predicting housing prices with minimal error.
+
+   ![Unknown](https://github.com/user-attachments/assets/cc3a5954-a095-4375-9a33-a8d8d69e08a6)
+
+The scatter plot above illustrates the relationship between the actual housing prices (USSTHPI) and the values predicted by the K-Nearest Neighbors (KNN) regression model.
+Each point represents a prediction for a specific data point.
+The black dashed line is the reference line where predicted values would exactly match the actual values.
+Most of the points are tightly clustered around the line, showing that the model generally produces accurate predictions.
+However, we can observe some minor deviations at higher USSTHPI values, where the model slightly underestimates or overestimates prices.
 
 
 - Unsupervised
