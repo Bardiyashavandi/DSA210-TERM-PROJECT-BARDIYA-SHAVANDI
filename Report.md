@@ -134,8 +134,18 @@ USSTHPI_Lag1: The housing price index from the previous month — suggesting tha
 FEDFUNDS_Rolling_Mean_3months: The 3-month average of the federal funds interest rate, which affects borrowing costs and spending.
 Month and FEDFUNDS (current value) also had moderate impact, possibly due to seasonal effects and policy changes.
 
-3)
+3) I utilized unsupervised learning (K-means Clustering) in order to create the model. To explore hidden patterns in the data without using labeled outputs, we applied K-Means clustering, an unsupervised learning method. Here's how the process unfolded:
 
+Feature Selection:
+We selected seven key economic indicators for clustering:
+Using the Elbow Method, we plotted the inertia (sum of squared distances to cluster centers) for different values of k from 1 to 10.
+The "elbow" point in the plot indicated the optimal number of clusters, which we chose as k = 3.
+Clustering and Visualization:
+We applied K-Means with 3 clusters and used Principal Component Analysis (PCA) to reduce the high-dimensional data into two dimensions for easier visualization. The resulting scatter plot shows how data points are grouped into three distinct clusters.
+Cluster Interpretation:
+To understand the characteristics of each group, we printed descriptive statistics for each cluster. These summaries help identify patterns such as which cluster contains periods of high housing prices or low unemployment.
+
+4)
 #### Findings
 
 
@@ -170,3 +180,38 @@ Time-series (complete):
   ![TI](https://github.com/user-attachments/assets/c3bc07d9-2aba-49e6-97a7-6b2fe9053cf4)
 
 This chart shows how the stock market’s closing values changed from around 2002 to 2021. Overall, the market’s been climbing steadily, with some bumps along the way. There’s a big drop around 2008 — that lines up with the global financial crisis — and another dip in 2020, which was probably due to the COVID-19 pandemic. Even with those hits, the market always seems to bounce back stronger. The shaded area around the line shows how much the values vary — and you can see that this uncertainty or volatility has gotten wider in recent years, meaning things have been more unpredictable. Still, by the end of the chart, the stock market is closing at some of its highest points ever. So, despite the chaos, the long-term direction has been up.
+
+Machine Learning:
+
+- Supervised 
+
+(Random Forest)
+
+- To assess the performance of the Random Forest regression model, we used three evaluation metrics:
+
+Mean Squared Error (MSE): 0.00115
+Root Mean Squared Error (RMSE): 0.03395
+R² Score: 0.99928
+These results indicate that the model performs exceptionally well. The very low MSE and RMSE show that the predictions are extremely close to the actual values. Additionally, an R² score of 0.99928 means that over 99.9% of the variance in the target variable is explained by the model. This suggests a highly accurate and reliable fit for the data.
+
+  ![Unknown copy](https://github.com/user-attachments/assets/c996ae10-9dcd-43e7-8287-7b086bc7ab29)
+  
+Predicted vs. Actual Values Plot:
+The scatter plot compares the actual housing prices (USSTHPI) with the values predicted by our Random Forest model. Each point represents a prediction for a test data point. The diagonal dashed line indicates perfect predictions (i.e., predicted = actual). The closer the points are to this line, the better the model's performance.
+In our plot, most points closely align with the diagonal, showing that the model is accurately predicting housing prices with minimal error.
+
+
+- Unsupervised
+
+    ![Unknown](https://github.com/user-attachments/assets/18ede4fd-6e44-4e3a-8028-f06476e1b391)
+
+The dots are colored based on their cluster assignments:
+Cluster 0 (blue)
+Cluster 1 (orange)
+Cluster 2 (green)
+We can observe that:
+
+The clusters are fairly well-separated, indicating that K-Means was able to find distinct patterns in the data.
+Cluster 1 (orange) is more spread out along the x-axis, suggesting it contains periods with more extreme values in some economic indicators.
+Clusters 0 and 2 are more compact and closer to the origin, possibly representing more stable or moderate economic phases.
+
