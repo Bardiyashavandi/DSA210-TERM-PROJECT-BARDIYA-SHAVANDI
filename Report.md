@@ -117,7 +117,24 @@ In this plot, we compare the lagged column and the default one, which represents
 
 #### Machine learning methods
 
+1) Defining the test & training data: In this phase, I standardized my datasets to be further extracted for machine learning methods. Afterwards, I defined the features and target as follows.
+   
+   X = All columns except for housing price index 
+   Y = Housing price index (target)
+   
+2) I used random forest model to observe and evaluate how well the trained Random Forest model is performing by comparing its predictions to the actual values. It uses common metrics like Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R-squared (R²).
 
+    ![Unknown](https://github.com/user-attachments/assets/132b8033-546a-43d1-8500-56a46f491a2c)
+
+We can clearly see that the most important feature by far was the 3-month rolling average of CPI (Consumer Price Index), which means recent inflation trends had the biggest impact on predicting price direction. This makes sense, as CPI directly reflects changes in the cost of living and purchasing power.
+
+The next most important features were:
+
+USSTHPI_Lag1: The housing price index from the previous month — suggesting that past housing trends help predict future price movements.
+FEDFUNDS_Rolling_Mean_3months: The 3-month average of the federal funds interest rate, which affects borrowing costs and spending.
+Month and FEDFUNDS (current value) also had moderate impact, possibly due to seasonal effects and policy changes.
+
+3)
 
 #### Findings
 
