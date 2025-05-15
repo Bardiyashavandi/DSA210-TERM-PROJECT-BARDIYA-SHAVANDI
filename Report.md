@@ -12,11 +12,11 @@
 
 • Methodology
 
-  Data Collection
+   • Data Collection
   
-  Preprocessing
+   • Preprocessing
   
-  Feature Engineering
+   • Feature Engineering
   
 • Exploratory Data Analysis
 
