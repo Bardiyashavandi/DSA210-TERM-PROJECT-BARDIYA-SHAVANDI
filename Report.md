@@ -69,9 +69,9 @@ The features used to predict housing prices include:
 
 These features are used in conjunction to predict the target variable, **USSTHPI**.
 
-## Methodology
+## 🧪 Methodology
 
-### Data Collection
+### 📥 Data Collection
 
 For this project, we collected publicly available datasets related to the U.S. housing market and several economic indicators. The data spans the years **2000 to 2025** and includes the following key datasets:
 
@@ -85,7 +85,9 @@ For this project, we collected publicly available datasets related to the U.S. h
 
 These datasets were retrieved in CSV format.
 
-#### Data Cleaning & Preprocessing
+--- 
+
+### 🧹 Data Preprocessing
 
 1) Handling missing values: At the beginning, it was essential to address any missing data in the datasets. I started to check whether these missing values exist or not in datasets that will be organized further. For Stock market datasets, which include missing values, I used forward filling, which filled the null values with the last known values to ensure continuity. Furthermore, I checked all datasets to observe these missing values.
    
@@ -118,6 +120,8 @@ These datasets were retrieved in CSV format.
 
 
 10) I used Pearson to utilize Hypothesis testing for each dataset and the house price index.
+
+---
     
 # Machine Learning models
 
