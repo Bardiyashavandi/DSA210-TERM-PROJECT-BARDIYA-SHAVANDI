@@ -6,9 +6,9 @@
 
 ###📌 Contents
 
-• Introduction
+- Introduction
 
-• Target Variable and Features
+- Target Variable and Features
 
 - Methodology
 
@@ -18,17 +18,17 @@
   
       • Feature Engineering
   
-• Exploratory Data Analysis
+- Exploratory Data Analysis
 
-• Machine Learning
+- Machine Learning
 
       • Supervised
       
       • Unsupervised
   
-• Findings
+- Findings
 
-• Conclusions
+- Conclusions
 
 ## Introduction
 
