@@ -175,14 +175,21 @@ In this plot, we compare the lagged column and the default one, which represents
 
 ---
 
-#### Machine learning methods
+## 🤖 Machine Learning
+
+The project applied both **supervised** and **unsupervised** machine learning methods to analyze and predict housing price behavior.
+
+---
 
 1) Defining the test & training data: In this phase, I standardized my datasets to be further extracted for machine learning methods. Afterwards, I defined the features and target as follows.
    
    X = All columns except for housing price index 
    Y = Housing price index (target)
    
-2) RANDOM FOREST: I used random forest model to observe and evaluate how well the trained Random Forest model is performing by comparing its predictions to the actual values. It uses common metrics like Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R-squared (R²).
+### 🔎 Supervised Learning
+
+#### 🌳 Random Forest Regressor
+2) RANDOM FOREST: I used a random forest model to observe and evaluate how well the trained Random Forest model is performing by comparing its predictions to the actual values. It uses common metrics like Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R-squared (R²).
 
     ![Unknown](https://github.com/user-attachments/assets/132b8033-546a-43d1-8500-56a46f491a2c)
 
@@ -194,7 +201,20 @@ USSTHPI_Lag1: The housing price index from the previous month — suggesting tha
 FEDFUNDS_Rolling_Mean_3months: The 3-month average of the federal funds interest rate, which affects borrowing costs and spending.
 Month and FEDFUNDS (current value) also had moderate impact, possibly due to seasonal effects and policy changes.
 
-3) K-MEANS CUSTERING: I utilized unsupervised learning (K-means Clustering) in order to create the model. To explore hidden patterns in the data without using labeled outputs, we applied K-Means clustering, an unsupervised learning method. Here's how the process unfolded:
+#### 📍 K-Nearest Neighbors (KNN)
+3) KNN: We applied the K-Nearest Neighbors Regressor with k = 5 to predict housing prices (USSTHPI). The model was trained on scaled training data and evaluated using standard regression metrics:
+
+Mean Squared Error (MSE): [insert value from output]
+Root Mean Squared Error (RMSE): [insert value]
+R² Score: [insert value]
+These values indicate how well the KNN model performs in capturing patterns in the data. A lower RMSE means predictions are close to actual values, while an R² close to 1 shows a good fit.
+
+---
+
+### 🧠 Unsupervised Learning
+
+#### 📦 K-Means Clustering
+4) K-MEANS CUSTERING: I utilized unsupervised learning (K-means Clustering) in order to create the model. To explore hidden patterns in the data without using labeled outputs, we applied K-Means clustering, an unsupervised learning method. Here's how the process unfolded:
 
 Feature Selection:
 We selected seven key economic indicators for clustering:
@@ -202,15 +222,10 @@ Using the Elbow Method, we plotted the inertia (sum of squared distances to clus
 The "elbow" point in the plot indicated the optimal number of clusters, which we chose as k = 3.
 Clustering and Visualization:
 We applied K-Means with 3 clusters and used Principal Component Analysis (PCA) to reduce the high-dimensional data into two dimensions for easier visualization. The resulting scatter plot shows how data points are grouped into three distinct clusters.
-Cluster Interpretation:
-To understand the characteristics of each group, we printed descriptive statistics for each cluster. These summaries help identify patterns such as which cluster contains periods of high housing prices or low unemployment.
-
-4) KNN: We applied the K-Nearest Neighbors Regressor with k = 5 to predict housing prices (USSTHPI). The model was trained on scaled training data and evaluated using standard regression metrics:
-
-Mean Squared Error (MSE): [insert value from output]
-Root Mean Squared Error (RMSE): [insert value]
-R² Score: [insert value]
-These values indicate how well the KNN model performs in capturing patterns in the data. A lower RMSE means predictions are close to actual values, while an R² close to 1 shows a good fit.
+- **Interpretation**:
+  - Cluster 1 contained more volatile economic conditions.
+  - Clusters 0 and 2 represented more stable periods.
+  - Clusters revealed hidden economic phases based on indicator behavior, without using housing prices for training.
 
 ---
 
