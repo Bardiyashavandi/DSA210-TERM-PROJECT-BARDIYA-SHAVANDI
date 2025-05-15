@@ -14,15 +14,17 @@
 
       • Data Collection
   
-   • Preprocessing
+      • Preprocessing
   
-   • Feature Engineering
+      • Feature Engineering
   
 • Exploratory Data Analysis
 
 • Machine Learning
-  Supervised
-  Unsupervised
+
+      • Supervised
+      
+      • Unsupervised
   
 • Findings
 
