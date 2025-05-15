@@ -30,19 +30,19 @@
 
 - Conclusions
 
-## Introduction
+## 📖 Introduction
 
 The United States housing market is one the most significant variables in global economy which affects people including investors and policymakers. Numerous factors affect its performance, including inflation, interest rates, stock market performance, mortgage debt, unemployment and GDP.
 Understanding the relationships between these economic indicators and housing prices is crucial for people in order to make the most efficient decision.
 
-The primary objectives of this project are:
+### 🎯 Project Objectives
 - To examine how inflation (CPI), interest rates (FEDFUNDS), and mortgage debt service payments influence the housing market.
 - To analyze the relationship between stock market performance and housing prices.
 _ To have an overview of housing price fluctuations from 2000 to 2025
   
 This analysis will help in understanding whether these factors have a direct or indirect impact on housing prices, and how the U.S. housing market responds to changes in these economic variables over time, which we used the specific period for it, which is 2000 to 2025.
 
-The datasets used in this project include:
+### 📂 Datasets Used
 - **Inflation Data (CPI)**: To measure inflation rates and assess its effect on housing prices.
 - **Interest Rates (FEDFUNDS)**: To explore how changes in interest rates impact housing affordability and demand.
 - **Stock Market Data**: To understand how stock market performance correlates with housing prices.
