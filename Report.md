@@ -7,8 +7,11 @@
 📌 Contents
 
 • Introduction
+
 • Target Variable and Features
+
 • Methodology
+
   -Data Collection
   -Preprocessing
   -Feature Engineering
