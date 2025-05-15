@@ -4,13 +4,13 @@
 **Course:** DSA 210   
 **Topic:** The Impact of Economic Indicators on U.S. Housing Prices
 
-📌 Contents
+###📌 Contents
 
 • Introduction
 
 • Target Variable and Features
 
-• Methodology
+- Methodology
 
       • Data Collection
   
