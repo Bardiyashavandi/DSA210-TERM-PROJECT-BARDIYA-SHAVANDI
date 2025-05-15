@@ -12,7 +12,7 @@
 
 • Methodology
 
-   • Data Collection
+      • Data Collection
   
    • Preprocessing
   
