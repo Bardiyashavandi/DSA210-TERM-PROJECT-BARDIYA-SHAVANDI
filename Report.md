@@ -134,13 +134,25 @@ To better understand the structure and relationships within the data, we created
 ### 🧮 Correlation Matrix
 - A heatmap was generated using Pearson correlation coefficients.
 - Revealed strong positive correlation between `CPIAUCSL` and `USSTHPI` (~0.86), as well as other moderate relationships with GDP and unemployment.
-
-All visuals were saved and can be accessed in the `/plots` folder of this repository.
    
    ![scatterploy](https://github.com/user-attachments/assets/9bfa7cdc-7a39-4d4b-b062-eba37a26a09c)
 
 
 10) I used Pearson to utilize Hypothesis testing for each dataset and the house price index.
+Strong Relationships (Significant):
+Inflation (CPI):
+Very strong positive relationship (correlation: 0.84) — As inflation increases, housing prices tend to rise too.
+GDP:
+Very strong positive relationship (correlation: 0.89) — As the economy grows, housing prices also go up.
+Stock Market:
+Moderate positive relationship (correlation: 0.37) — When the stock market goes up, housing prices tend to increase.
+Unemployment:
+Moderate negative relationship (correlation: -0.29) — As unemployment rises, housing prices tend to go down.
+Interest Rates:
+Weak negative relationship (correlation: -0.10) — Higher interest rates slightly reduce housing prices.
+No Significant Relationship:
+Mortgage Debt Service Payments:
+Very weak relationship (correlation: 0.0058, high p-value) — No real impact found on housing prices.
 
 ---
     
