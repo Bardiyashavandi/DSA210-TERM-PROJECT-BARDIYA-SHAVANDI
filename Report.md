@@ -1,8 +1,7 @@
 # 🏠 DSA 210 Project: Housing Prices & Economic Indicators in the U.S. (2000–2025)
 
 **Student:** Bardiya Shavandi  
-**Course:** DSA 210  
-**Project Type:** Predictive Analysis using Machine Learning  
+**Course:** DSA 210   
 **Topic:** The Impact of Economic Indicators on U.S. Housing Prices
 
 ## Contents
