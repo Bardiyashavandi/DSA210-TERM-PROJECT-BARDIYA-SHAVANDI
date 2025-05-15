@@ -53,12 +53,12 @@ This analysis will help in understanding whether these factors have a direct or 
   
 In the following sections, we describe the methodology used to analyze the data, present the findings, and discuss the implications of our results.
 
-## Target Variable and Features
+## 🎯 Target Variable and Features
 
-### Target Variable
+### 🏠 Target Variable
 The target variable in this project is **USSTHPI (House Price Index)**, which represents the changes in housing prices over time.
 
-### Features
+### 📈 Features Used for Prediction
 The features used to predict housing prices include:
 - **Inflation (CPIAUCSL)**: The inflation rate in the U.S. over the analysis period.
 - **Interest Rates (FEDFUNDS)**: The federal funds rate, representing the cost of borrowing.
