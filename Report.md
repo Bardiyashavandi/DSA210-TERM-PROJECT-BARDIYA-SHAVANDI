@@ -12,19 +12,17 @@
 
 • Methodology
 
-   1)Data Collection
+  Data Collection
   
-   2)Preprocessing
+  Preprocessing
   
-   3)Feature Engineering
+  Feature Engineering
   
 • Exploratory Data Analysis
 
 • Machine Learning
-
-  -Supervised
-  
-  -Unsupervised
+  Supervised
+  Unsupervised
   
 • Findings
 
