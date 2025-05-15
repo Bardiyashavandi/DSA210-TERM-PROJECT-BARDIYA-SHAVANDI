@@ -5,18 +5,19 @@
 **Topic:** The Impact of Economic Indicators on U.S. Housing Prices
 
 📌 Contents
-•Introduction
-•Target Variable and Features
-•Methodology
+
+• Introduction
+• Target Variable and Features
+• Methodology
   -Data Collection
   -Preprocessing
   -Feature Engineering
-•Exploratory Data Analysis
-•Machine Learning
+• Exploratory Data Analysis
+• Machine Learning
   -Supervised
   -Unsupervised
-•Findings
-•Conclusions
+• Findings
+• Conclusions
 
 ## Introduction
 
