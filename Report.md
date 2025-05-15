@@ -30,6 +30,8 @@
 
 - Conclusions
 
+---
+
 ## 📖 Introduction
 
 The United States housing market is one the most significant variables in global economy which affects people including investors and policymakers. Numerous factors affect its performance, including inflation, interest rates, stock market performance, mortgage debt, unemployment and GDP.
@@ -53,6 +55,8 @@ This analysis will help in understanding whether these factors have a direct or 
   
 In the following sections, we describe the methodology used to analyze the data, present the findings, and discuss the implications of our results.
 
+---
+
 ## 🎯 Target Variable and Features
 
 ### 🏠 Target Variable
@@ -68,6 +72,8 @@ The features used to predict housing prices include:
 - **GDP**: The U.S. Gross Domestic Product over the years.
 
 These features are used in conjunction to predict the target variable, **USSTHPI**.
+
+---
 
 ## 🧪 Methodology
 
@@ -105,16 +111,31 @@ These datasets were retrieved in CSV format.
 
 7) Outlier Detection: I made the function for this purpose, and I disregard and remove these outliers. After that, I checked these datasets with a suspicious cluster, and the ones that remained are extreme values, and they are not outliers.
 
-8) Visualization: I made numerous visuals out of these datasets separately to comprehend them.
-   
-   Histograms: To see the distribution and frequency
-   
-   Scatterplots: To observe the relationship between variables and the house price index
-   
-   Time series: To see the fluctuation in date
-   
-   Matrix: Correlation between them
+8) ## 📊 Exploratory Data Analysis
 
+To better understand the structure and relationships within the data, we created several visualizations:
+
+### 📦 Box Plots
+- Used to identify outliers in variables such as `USSTHPI`, `CPIAUCSL`, `FEDFUNDS`, and `MDSP`.
+- Outliers were further analyzed and handled accordingly using Z-score and IQR methods.
+
+### 📉 Histograms
+- Plotted for each variable to inspect the distribution and skewness.
+- Helped identify whether features were normally distributed or required transformation.
+
+### 🔗 Scatter Plots
+- Used to explore pairwise relationships between economic indicators and `USSTHPI`.
+- Regression lines were added to visualize trends and direction of correlation.
+
+### ⏳ Time Series Plots
+- Visualized trends in housing prices and economic indicators over time.
+- Clearly illustrated major events such as the 2008 financial crisis and 2020 COVID-19 recession.
+
+### 🧮 Correlation Matrix
+- A heatmap was generated using Pearson correlation coefficients.
+- Revealed strong positive correlation between `CPIAUCSL` and `USSTHPI` (~0.86), as well as other moderate relationships with GDP and unemployment.
+
+All visuals were saved and can be accessed in the `/plots` folder of this repository.
    
    ![scatterploy](https://github.com/user-attachments/assets/9bfa7cdc-7a39-4d4b-b062-eba37a26a09c)
 
@@ -139,6 +160,8 @@ These datasets were retrieved in CSV format.
 In this plot, we compare the lagged column and the default one, which represents that past housing price movements have a notable influence on future prices. This visualization can help us understand trends and cycles in housing prices and their temporal relationships with past data.
 
 5) I handled the missing values after feature engineering by using forward and backward fill.
+
+---
 
 #### Machine learning methods
 
@@ -177,6 +200,7 @@ Root Mean Squared Error (RMSE): [insert value]
 R² Score: [insert value]
 These values indicate how well the KNN model performs in capturing patterns in the data. A lower RMSE means predictions are close to actual values, while an R² close to 1 shows a good fit.
 
+---
 
 #### Findings
 
@@ -255,3 +279,6 @@ The clusters are fairly well-separated, indicating that K-Means was able to find
 Cluster 1 (orange) is more spread out along the x-axis, suggesting it contains periods with more extreme values in some economic indicators.
 Clusters 0 and 2 are more compact and closer to the origin, possibly representing more stable or moderate economic phases.
 
+---
+
+#### Conclusion
