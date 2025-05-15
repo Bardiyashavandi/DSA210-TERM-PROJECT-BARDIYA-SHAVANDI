@@ -229,20 +229,35 @@ We applied K-Means with 3 clusters and used Principal Component Analysis (PCA) t
 
 ---
 
-#### Findings
+## 📌 Findings
 
 
   ![Inflation](https://github.com/user-attachments/assets/9ba50811-a5bc-4074-980d-4a57a7f16d0a)
 
 The scatter plot illustrates the relationship between Housing Prices (USSTHPI) and Inflation (CPIAUCSL). It shows a clear positive correlation, where an increase in inflation appears to correspond with higher housing prices. The red dashed line represents the linear regression line, highlighting the upward trend, which suggests that as inflation rises, housing prices tend to follow suit. This visualization helps in understanding the potential influence of inflation on the housing market.
+### 💸 Inflation
+- Strong positive correlation with housing prices (`r ≈ 0.86`).
+- Higher inflation generally aligned with increasing housing prices.
 
   ![Interest rate](https://github.com/user-attachments/assets/ae49b9a6-dffa-443f-b5db-6e6554c51812)
 
-There is a weak correlation between these two variables, which represent meaningful outcomes.
+### 💰 Interest Rates
+- Weak negative correlation with housing prices.
+- As rates increased, housing prices were affected slightly, likely due to borrowing cost.
 
   ![scatterploy](https://github.com/user-attachments/assets/9301f5ad-e365-4f72-851b-084374b6ba64)
 
-The scatter plot depicting the relationship between Mortgage Debt (MDSP) and Housing Prices (USSTHPI) shows a weak negative correlation, as indicated by the downward sloping red regression line. 
+### 📉 Mortgage Debt (MDSP)
+- Showed weak-to-moderate negative correlation with `USSTHPI`.
+- Higher debt service pressure may suppress home-buying demand.
+
+### 📊 Stock Market
+- Moderate positive correlation with housing prices.
+- Reflects investor confidence and general economic momentum.
+
+### 📈 GDP & Unemployment
+- **GDP** had a strong positive correlation with `USSTHPI`.
+- **Unemployment** showed a clear inverse correlation: lower unemployment aligned with higher housing prices.
 
 Hypothesis Testing: The hypothesis testing was conducted to evaluate the correlation between various economic factors—namely, inflation (CPIAUCSL), interest rates (FEDFUNDS), stock market performance (Close), and mortgage debt service payments (MDSP)—and housing prices (USSTHPI). We utilized Pearson's correlation coefficient to test the strength and significance of these relationships. Each hypothesis was tested with a null hypothesis stating that there is no significant relationship between the economic factors and housing prices. The p-values for each correlation were compared to a threshold of 0.05; if the p-value was less than 0.05, the null hypothesis was rejected, indicating a statistically significant relationship. The results of the analysis revealed strong and significant correlations across all variables. For instance, the correlation between inflation (CPIAUCSL) and housing prices (USSTHPI) was found to be 0.856, with an extremely low p-value (close to zero), signaling a strong positive relationship. Similarly, significant correlations were found between housing prices and the other factors: interest rates (FEDFUNDS), stock market performance (Close), and mortgage debt service payments (MDSP). These results collectively suggest that all the examined economic factors have a meaningful impact on housing prices in the observed period.
 
@@ -308,4 +323,15 @@ Clusters 0 and 2 are more compact and closer to the origin, possibly representin
 
 ---
 
-#### Conclusion
+## ✅ Conclusion
+
+This project demonstrated how macroeconomic indicators affect U.S. housing prices between 2000 and 2025. Through data collection, transformation, visualization, and machine learning models, we found that:
+
+- **Inflation and GDP** had the strongest impact on housing price trends.
+- **Lag features** and **rolling averages** significantly improved predictive accuracy.
+- **Random Forest Regressor** yielded the best performance, with an R² score of 0.999, highlighting near-perfect prediction ability.
+- **K-Means Clustering** helped identify meaningful economic patterns and time periods with shared economic characteristics.
+
+The results support the idea that housing prices are deeply influenced by broader economic conditions, and machine learning can effectively model these dynamics for better forecasting and insight.
+
+
