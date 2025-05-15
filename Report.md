@@ -4,7 +4,7 @@
 **Course:** DSA 210   
 **Topic:** The Impact of Economic Indicators on U.S. Housing Prices
 
-###📌 Contents
+### 📌 Contents
 
 - Introduction
 
@@ -12,19 +12,19 @@
 
 - Methodology
 
-      • Data Collection
+      - Data Collection
   
-      • Preprocessing
+      - Preprocessing
   
-      • Feature Engineering
+      - Feature Engineering
   
 - Exploratory Data Analysis
 
 - Machine Learning
 
-      • Supervised
+      - Supervised
       
-      • Unsupervised
+      - Unsupervised
   
 - Findings
 
