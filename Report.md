@@ -310,6 +310,12 @@ Time-series (complete):
 
 This chart shows how the stock market’s closing values changed from around 2002 to 2021. Overall, the market’s been climbing steadily, with some bumps along the way. There’s a big drop around 2008 — that lines up with the global financial crisis — and another dip in 2020, which was probably due to the COVID-19 pandemic. Even with those hits, the market always seems to bounce back stronger. The shaded area around the line shows how much the values vary — and you can see that this uncertainty or volatility has gotten wider in recent years, meaning things have been more unpredictable. Still, by the end of the chart, the stock market is closing at some of its highest points ever. So, despite the chaos, the long-term direction has been up.
 
+Linear Regression:
+
+   ![Unknown](https://github.com/user-attachments/assets/c9bcbdc4-9d51-4653-bf72-5898b7e71b63)
+
+This scatter plot shows the performance of a Linear Regression model that predicts housing prices (USSTHPI) based only on the raw economic features—without using any lagged or shifted columns. Each blue dot represents a single prediction, where the x-axis is the actual price and the y-axis is the predicted price. The dashed diagonal line shows where perfect predictions would fall. As we can see, most of the points are closely aligned with this line, meaning the model did a fairly good job overall. While it may not be as precise as models that include time-based memory (like lagged values), this visualization confirms that even the raw economic indicators carry enough signal to make reasonable housing price predictions.
+
 Machine Learning:
 
 - Supervised 
