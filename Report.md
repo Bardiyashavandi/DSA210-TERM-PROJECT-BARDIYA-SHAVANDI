@@ -138,7 +138,7 @@ To better understand the structure and relationships within the data, we created
    ![scatterploy](https://github.com/user-attachments/assets/9bfa7cdc-7a39-4d4b-b062-eba37a26a09c)
 
 
-10) I used Pearson to utilize Hypothesis testing for each dataset and the house price index.
+8) I used Pearson to utilize Hypothesis testing for each dataset and the house price index.
 Strong Relationships (Significant):
 Inflation (CPI):
 Very strong positive relationship (correlation: 0.84) — As inflation increases, housing prices tend to rise too.
@@ -156,7 +156,7 @@ Very weak relationship (correlation: 0.0058, high p-value) — No real impact fo
 
 #### 📍 Linear regression
 
-11) In this project, I also applied Linear Regression, one of the most fundamental supervised learning algorithms. The goal was to predict housing prices (USSTHPI) using all relevant economic features such as inflation (CPI), interest rates (FEDFUNDS), GDP, mortgage debt (MDSP), unemployment rate (UNRATE), and lag/rolling features. Also, In this part, I wanted to predict the prices based on all features , so I did not remove lagged house price index because these ones enhance the efficiency but I used Linear regression without these feature as well which I explained it after this model.
+9) In this project, I also applied Linear Regression, one of the most fundamental supervised learning algorithms. The goal was to predict housing prices (USSTHPI) using all relevant economic features such as inflation (CPI), interest rates (FEDFUNDS), GDP, mortgage debt (MDSP), unemployment rate (UNRATE), and lag/rolling features. Also, In this part, I wanted to predict the prices based on all features , so I did not remove lagged house price index because these ones enhance the efficiency but I used Linear regression without these feature as well which I explained it after this model.
 
 We trained the model using standardized input features and evaluated its performance on a separate test set. The results were as follows:
 
@@ -165,7 +165,7 @@ Root Mean Squared Error (RMSE): 0.03395
 R² Score: 0.99928
 This exceptionally high R² score indicates that the model explains 99.9% of the variance in housing prices, meaning the linear regression model fits the data very well. Additionally, the predicted vs. actual plot shows that the predictions align very closely with real housing price values, suggesting that the model generalizes well and is not overfitting. This further reinforces that linear regression can be an effective baseline model for predicting housing prices when given well-prepared and enriched economic data.
 
-12) Linear regression without lagged columns: I utilized this model to further explore the ralationship between our main features and house price index:
+10) Linear regression without lagged columns: I utilized this model to further explore the ralationship between our main features and house price index:
 Linear Regression Model Evaluation:
 Mean Squared Error: 0.070626422216715
 Root Mean Squared Error: 0.2657563211227816
