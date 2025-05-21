@@ -111,7 +111,7 @@ These datasets were retrieved in CSV format.
 
 7) Outlier Detection: I made the function for this purpose, and I disregard and remove these outliers. After that, I checked these datasets with a suspicious cluster, and the ones that remained are extreme values, and they are not outliers.
 
-8) ## 📊 Exploratory Data Analysis
+## 📊 Exploratory Data Analysis
 
 To better understand the structure and relationships within the data, we created several visualizations:
 
