@@ -154,6 +154,34 @@ No Significant Relationship:
 Mortgage Debt Service Payments:
 Very weak relationship (correlation: 0.0058, high p-value) — No real impact found on housing prices.
 
+#### 📍 Linear regression
+
+11) In this project, I also applied Linear Regression, one of the most fundamental supervised learning algorithms. The goal was to predict housing prices (USSTHPI) using all relevant economic features such as inflation (CPI), interest rates (FEDFUNDS), GDP, mortgage debt (MDSP), unemployment rate (UNRATE), and lag/rolling features. Also, In this part, I wanted to predict the prices based on all features , so I did not remove lagged house price index because these ones enhance the efficiency but I used Linear regression without these feature as well which I explained it after this model.
+
+We trained the model using standardized input features and evaluated its performance on a separate test set. The results were as follows:
+
+Mean Squared Error (MSE): 0.00115
+Root Mean Squared Error (RMSE): 0.03395
+R² Score: 0.99928
+This exceptionally high R² score indicates that the model explains 99.9% of the variance in housing prices, meaning the linear regression model fits the data very well. Additionally, the predicted vs. actual plot shows that the predictions align very closely with real housing price values, suggesting that the model generalizes well and is not overfitting. This further reinforces that linear regression can be an effective baseline model for predicting housing prices when given well-prepared and enriched economic data.
+
+12) Linear regression without lagged columns: I utilized this model to further explore the ralationship between our main features and house price index:
+Linear Regression Model Evaluation:
+Mean Squared Error: 0.070626422216715
+Root Mean Squared Error: 0.2657563211227816
+R² Score: 0.955949408314608
+
+Linear Regression Coefficients:
+CPIAUCSL: -2.9049414399599436
+FEDFUNDS: -0.08364351713363764
+Close: -1.0532527823441694e-06
+MDSP: 0.4238359272635925
+GDP: 0.0010434981353119846
+UNRATE: -0.011024955688318
+Intercept: -16.027124231485736
+
+The linear regression model performed strongly, achieving an R² score of 0.956, indicating that approximately 95.6% of the variance in housing prices can be explained by the selected economic indicators. The Mean Squared Error (MSE) was 0.0706, and the Root Mean Squared Error (RMSE) was 0.266, showing a relatively low prediction error.
+
 ---
     
 # Machine Learning models
@@ -209,32 +237,6 @@ Root Mean Squared Error (RMSE): [insert value]
 R² Score: [insert value]
 These values indicate how well the KNN model performs in capturing patterns in the data. A lower RMSE means predictions are close to actual values, while an R² close to 1 shows a good fit.
 
-#### 📍 Linear regression
-4) In this project, I also applied Linear Regression, one of the most fundamental supervised learning algorithms. The goal was to predict housing prices (USSTHPI) using all relevant economic features such as inflation (CPI), interest rates (FEDFUNDS), GDP, mortgage debt (MDSP), unemployment rate (UNRATE), and lag/rolling features. Also, In this part, I wanted to predict the prices based on all features , so I did not remove lagged house price index because these ones enhance the efficiency but I used Linear regression without these feature as well which I explained it after this model.
-
-We trained the model using standardized input features and evaluated its performance on a separate test set. The results were as follows:
-
-Mean Squared Error (MSE): 0.00115
-Root Mean Squared Error (RMSE): 0.03395
-R² Score: 0.99928
-This exceptionally high R² score indicates that the model explains 99.9% of the variance in housing prices, meaning the linear regression model fits the data very well. Additionally, the predicted vs. actual plot shows that the predictions align very closely with real housing price values, suggesting that the model generalizes well and is not overfitting. This further reinforces that linear regression can be an effective baseline model for predicting housing prices when given well-prepared and enriched economic data.
-
-5) Linear regression without lagged columns: I utilized this model to further explore the ralationship between our main features and house price index:
-Linear Regression Model Evaluation:
-Mean Squared Error: 0.070626422216715
-Root Mean Squared Error: 0.2657563211227816
-R² Score: 0.955949408314608
-
-Linear Regression Coefficients:
-CPIAUCSL: -2.9049414399599436
-FEDFUNDS: -0.08364351713363764
-Close: -1.0532527823441694e-06
-MDSP: 0.4238359272635925
-GDP: 0.0010434981353119846
-UNRATE: -0.011024955688318
-Intercept: -16.027124231485736
-
-The linear regression model performed strongly, achieving an R² score of 0.956, indicating that approximately 95.6% of the variance in housing prices can be explained by the selected economic indicators. The Mean Squared Error (MSE) was 0.0706, and the Root Mean Squared Error (RMSE) was 0.266, showing a relatively low prediction error.
 
 ---
 
