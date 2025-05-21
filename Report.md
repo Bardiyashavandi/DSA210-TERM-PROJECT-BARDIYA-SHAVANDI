@@ -366,9 +366,15 @@ This project demonstrated how macroeconomic indicators affect U.S. housing price
 
 - **Inflation and GDP** had the strongest impact on housing price trends.
 - **Lag features** and **rolling averages** significantly improved predictive accuracy.
-- **Random Forest Regressor** yielded the best performance, with an R² score of 0.999, highlighting near-perfect prediction ability.
+- **Random Forest Regressor** yielded the best performance highlighting near-perfect prediction ability.
 - **K-Means Clustering** helped identify meaningful economic patterns and time periods with shared economic characteristics.
+
+Through visualizations and models like Random Forest, Linear Regression, and KNN, we gained deeper insight into how the housing market behaves over time. Overall, this project helped connect complex economic trends to real-life outcomes like the cost of buying a home.
 
 The results support the idea that housing prices are deeply influenced by broader economic conditions, and machine learning can effectively model these dynamics for better forecasting and insight.
 
+I did not use any classification methods because my datasets were not categorical therefore, random forest and knn were the most compatible with the features.
 
+## Limitations and Future Work
+
+While the results were promising, there are still some limitations. First, the models depend heavily on the quality and availability of historical data—missing or outdated data could impact predictions. Second, we used national-level data, which may hide regional differences in housing prices. Also, although we created lag features and rolling averages to capture trends, we didn’t use more advanced time-series models like ARIMA or LSTM, which could improve forecasting. In the future, we could explore more detailed datasets (like state-level or city-level housing prices), try different model types (e.g., deep learning), or include other variables like income, population growth, or housing supply. Adding interactive dashboards or forecasting tools could also make the project more useful for real-world applications.
