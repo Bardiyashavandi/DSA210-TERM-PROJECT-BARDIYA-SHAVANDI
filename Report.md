@@ -163,9 +163,11 @@ We trained the model using standardized input features and evaluated its perform
 Mean Squared Error (MSE): 0.00115
 Root Mean Squared Error (RMSE): 0.03395
 R² Score: 0.99928
+
 This exceptionally high R² score indicates that the model explains 99.9% of the variance in housing prices, meaning the linear regression model fits the data very well. Additionally, the predicted vs. actual plot shows that the predictions align very closely with real housing price values, suggesting that the model generalizes well and is not overfitting. This further reinforces that linear regression can be an effective baseline model for predicting housing prices when given well-prepared and enriched economic data.
 
 10) Linear regression without lagged columns: I utilized this model to further explore the ralationship between our main features and house price index:
+    
 Linear Regression Model Evaluation:
 Mean Squared Error: 0.070626422216715
 Root Mean Squared Error: 0.2657563211227816
